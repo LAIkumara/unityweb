@@ -120,6 +120,21 @@ export default function Profile() {
                 <TweetCard />
               ))}
             </TabPanel>
+            <TabPanel value="2">
+              {[1, 1].map((item) => (
+                <TweetCard />
+              ))}
+            </TabPanel>
+            <TabPanel value="3">
+              {[1, 1].map((item) => (
+                <TweetCard />
+              ))}
+            </TabPanel>
+            <TabPanel value="4">
+              {[1, 1].map((item) => (
+                <TweetCard />
+              ))}
+            </TabPanel>
             <TabPanel value="2">Workout Status</TabPanel>
             <TabPanel value="3">Workout Plan</TabPanel>
             <TabPanel value="4">Meal Plan</TabPanel>
